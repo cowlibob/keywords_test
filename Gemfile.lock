@@ -1,0 +1,25 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    columnize (0.3.6)
+    crack (0.3.1)
+    debugger (1.2.1)
+      columnize (>= 0.3.1)
+      debugger-linecache (~> 1.1.1)
+      debugger-ruby_core_source (~> 1.1.4)
+    debugger-linecache (1.1.2)
+      debugger-ruby_core_source (>= 1.1.1)
+    debugger-ruby_core_source (1.1.4)
+    rbtagger (0.4.7)
+    term-extract (0.5.2)
+      rbtagger (~> 0.4.7)
+    term_extraction (0.1.7)
+      crack (>= 0.1.6)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  debugger
+  term-extract (~> 0.5.2)
+  term_extraction (~> 0.1.7)
